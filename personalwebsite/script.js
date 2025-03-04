@@ -70,9 +70,9 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     emailjs
-      .send("service_iv9kmmk", "template_lwzzjra", templateParams)
+      .send("service_w5ahx1e", "template_x196v6p", templateParams)
       .then((response) => {
-        alert("Feedback sent successfully!");
+        alert("thanks for your feedback!");
         document.getElementById("feedbackForm").reset();
         submitBtn.disabled = false;
         submitBtn.textContent = "Submit Message";
